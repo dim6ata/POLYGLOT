@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toast_box"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/img_custom_toast"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/polyglot_logo"
+            android:src="@drawable/polyglot_logo_bl_small_two" />
+
+        <TextView
+            android:id="@+id/customToast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/yeseva_one"
+            android:padding="2dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</LinearLayout>

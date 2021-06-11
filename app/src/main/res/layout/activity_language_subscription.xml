@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".LanguageSubscription">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="118dp"
+            android:layout_height="107dp"
+            android:layout_marginStart="16dp"
+            android:contentDescription="@string/polyglot_logo"
+            android:onClick="languageReturnHome"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/polyglot_logo_wh_small" />
+
+        <TextView
+            android:id="@+id/tv_poly_translate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/yeseva_one"
+            android:text="@string/select_to_subscribe"
+            android:textColor="#FFFFFFFF"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <ListView
+            android:id="@+id/list_lng_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/round_box"
+            app:layout_constraintBottom_toTopOf="@+id/btn_update_lng"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/btn_update_lng"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/round_button_style_wh"
+            android:fontFamily="@font/yeseva_one"
+            android:onClick="updateOnClick"
+            android:text="@string/update"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

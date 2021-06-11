@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".LanguageSubscription">
+
+    <TableRow>
+
+        <TextView
+
+            android:id="@+id/row_check_text_id"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight=".6"
+            android:fontFamily="@font/yeseva_one"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <CheckBox
+
+            android:id="@+id/checkbox_id"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".06"
+            android:buttonTint="@color/colorPrimaryDark"
+            android:textColorLink="@color/colorPrimaryDark">
+
+        </CheckBox>
+
+
+    </TableRow>
+
+
+</TableLayout>

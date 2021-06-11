@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">POLYGLOT</string>
+    <string name="language_translator_apikey">URPLzJcfLu5byuv_uQ27ix6sc5bGH7fra_jaxPRLx85H</string>
+    <string name="language_translator_url">https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/49a4d5e2-0eb1-4564-871f-9dcafa974410</string>
+    <string name="text_speech_apikey">S-_5GFONtizjYj7oBnSErNQKa9iKuTA_XxEg6cet4yNc</string>
+    <string name="text_speech_url">https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/ff111b38-beba-43e4-8b4f-955eecc52c4b</string>
+    <string name="edit_phrases">Edit Phrases</string>
+    <string name="add_phrases">Add Phrases</string>
+    <string name="display_phrases">Display Phrases</string>
+    <string name="language_subscription">Subscribed Languages</string>
+    <string name="translate">Translate</string>
+    <string name="translate_all">Translate All</string>
+    <string name="enter_phrase">Enter A Phrase</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="welcome_screen">WELCOME SCREEN</string>
+    <string name="pronounce">PRONOUNCE</string>
+    <string name="view_all">VIEW ALL</string>
+    <string name="polyglot">POLYGLOT</string>
+    <string name="polyglot_logo">Polyglot Logo</string>
+    <string name="android_tutorial_custom_toast">Android Tutorial Custom Toast</string>
+    <string name="todo">TODO</string>
+    <string name="select_to_subscribe">SELECT TO SUBSCRIBE</string>
+    <string name="select_to_translate">TRANSLATE A PHRASE</string>
+    <string name="test_your_knowledge">TEST YOUR KNOWLEDGE</string>
+    <string name="view_all_phrases">VIEW ALL PHRASES</string>
+</resources>
