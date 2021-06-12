@@ -1,11 +1,11 @@
 # POLYGLOT
 
-### POLYGLOT is an Android translation application that allows users to manage phrases and their translations into various languages. 
+### Portfolio Part #7: POLYGLOT is an Android translation application that allows users to manage phrases and their translations into various languages. 
 ###
 
 #### POLYGLOT is my second Android Application, which has been written as a part of a university project with the purpose of producing an Android tool that utilises the IBM Watson Language Translator service (https://cloud.ibm.com/catalog/services/language-translator). 
 
-The application contains the following functionality: 
+The application contains the following functionalities: 
 1. 'Add Phrases' allows users to enter new phrases in English, which are stored in an SQLite database and can then be used for translations. 
 2. 'Edit Phrases' allows users to edit existing phrases.
 3. 'Display Phrases' allows users to view all phrase entries that are stored on the database. 
@@ -19,7 +19,7 @@ The application contains the following functionality:
     When a line is selected in either of the TableViews the associated element is also highlighted. 
 
 
-Application Screenshots: 
+### Application Screenshots: 
 
 <table>
 
@@ -93,4 +93,4 @@ Application Screenshots:
 
 
 
-Copyright 2020 dim6ata
+Copyright 2020, dim6ata.
